@@ -9,9 +9,9 @@ CMS模板作业库
 <p> (3)npm i titbit-loader </p>
 
 ### 在创建好的目录中创建ceshi1.js文件并在其中加入响应代码，并在此目录下运行以下命令，之后访问http://localhost:8008/
-<p> (1)运行命令 </p>
+<p> 运行命令 </p>
 <p> node ceshi1.js </p>
-<p> (3)访问http://localhost:8008/</p>
+<p> 访问http://localhost:8008/</p>
 
 ## 第六章 重构设计并使用数据库
 
