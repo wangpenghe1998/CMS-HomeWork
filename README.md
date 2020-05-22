@@ -28,12 +28,12 @@ CMS模板作业库
 
 ### 三、初始化
 <p> (1)初始化之前需要先创建一个数据库，还需要创建一个普通数据库用户。 </p>
-<p> 例如：你要创建liaobo用户以及textcms数据库，并让liaobo拥有textcms数据库，并且赋予liaobo的登录属性 </p>
+<p> 例如：你要创建tlt用户以及textcms数据库，并让tlt拥有textcms数据库，并且赋予tlt的登录属性 </p>
 <p> 注意事项：需要打开SQL Shell进行执行命令，并需要输入正确的用户postgres的口令才可以进行命令输入与执行。 </p>
 <p> 执行命令如下： </p>
-<p> 1.create role liaobo with password 'liaobo123'; </p>
-<p> 2.create database textcms owner liaobo; </p>
-<p> 3.alter role liaobo login; </p>
+<p> 1.create role tlt with password 'textcms'; </p>
+<p> 2.create database textcms owner tlt; </p>
+<p> 3.alter role tlt login; </p>
 
 <p> (2)执行成功，之后可以在pgAdmin中看到数据库与用户名 </p>
 
